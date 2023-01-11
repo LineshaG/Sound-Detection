@@ -1,6 +1,8 @@
 body 
 {
     background-color: rgb(255, 255, 149);
+    color: black;
+    text-align: center;
 }
 h2
 {
@@ -21,9 +23,20 @@ button
     background-color: rgb(255, 65, 65);  
     height: 35px;
     width: 85px;
-    font-size: 20px;
+    font-size: 21px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     text-align: center;
     margin-top: 10px;
+}
+.footer
+{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    font-size: 18px;
+    line-height: 3;
+    width: 100%;
+    background-color: white;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
 }
